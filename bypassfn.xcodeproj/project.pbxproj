@@ -29,6 +29,9 @@
 		594F30C52C5D4A1300024F1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		594F30C72C5D4A1300024F1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		594F30C82C5D4A1300024F1C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		594F30D52C5DE23D00024F1C /* entitlements-TS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "entitlements-TS.plist"; sourceTree = "<group>"; };
+		594F30D62C5DE24400024F1C /* entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = entitlements.plist; sourceTree = "<group>"; };
+		594F30D72C5DE27C00024F1C /* Makefile.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = Makefile.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +48,9 @@
 		594F30AA2C5D4A1100024F1C = {
 			isa = PBXGroup;
 			children = (
+				594F30D72C5DE27C00024F1C /* Makefile.sh */,
+				594F30D52C5DE23D00024F1C /* entitlements-TS.plist */,
+				594F30D62C5DE24400024F1C /* entitlements.plist */,
 				594F30B52C5D4A1100024F1C /* bypassfn */,
 				594F30B42C5D4A1100024F1C /* Products */,
 			);

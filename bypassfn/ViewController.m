@@ -18,6 +18,13 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    UIButton *runCommandButton = [UIButton buttonWithType:UIButtonTypeSystem];
+    [runCommandButton setTitle:@"Run" forState:UIControlStateNormal];
+    runCommandButton.frame = CGRectMake(100, 100, 200, 50);
+    [runCommandButton addTarget:self action:@selector(runCommandButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:runCommandButton];
+    
 }
 
 - (IBAction)runCommandButtonTapped:(id)sender {
