@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>6143144D-6E09-4C90-A67B-9A0AB4B30998</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>6143144D-6E09-4C90-A67B-9A0AB4B30998.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>bypassfn project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>bypassfn</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>744470820.03738296</real>
+			<key>timeStoppedRecording</key>
+			<real>744470820.15783405</real>
+			<key>title</key>
+			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>6143144D-6E09-4C90-A67B-9A0AB4B30998</string>
+		</dict>
+		<key>91C12670-ED6E-431A-AC0E-511D20B23749</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>91C12670-ED6E-431A-AC0E-511D20B23749.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>bypassfn project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>bypassfn</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
+			<key>timeStartedRecording</key>
+			<real>744470969.72246003</real>
+			<key>timeStoppedRecording</key>
+			<real>744470969.82465601</real>
+			<key>title</key>
+			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
+			<key>uniqueIdentifier</key>
+			<string>91C12670-ED6E-431A-AC0E-511D20B23749</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

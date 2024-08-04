@@ -23,7 +23,7 @@
     runCommandButton.frame = CGRectMake(100, 100, 200, 50);
     [runCommandButton addTarget:self action:@selector(runCommandButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
     
-    [self.view addSubview:runCommandButton];
+    [self.view addSubview:runCommandButton];     
     
 }
 
