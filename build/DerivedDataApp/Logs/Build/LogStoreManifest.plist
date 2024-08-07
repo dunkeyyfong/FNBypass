@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>6143144D-6E09-4C90-A67B-9A0AB4B30998</key>
+		<key>77777FE4-9C7C-483C-A4E7-7B791660C0F0</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>6143144D-6E09-4C90-A67B-9A0AB4B30998.xcactivitylog</string>
+			<string>77777FE4-9C7C-483C-A4E7-7B791660C0F0.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +32,15 @@
 			<key>signature</key>
 			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>744470820.03738296</real>
+			<real>744708428.73766398</real>
 			<key>timeStoppedRecording</key>
-			<real>744470820.15783405</real>
+			<real>744708428.85193706</real>
 			<key>title</key>
 			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>6143144D-6E09-4C90-A67B-9A0AB4B30998</string>
+			<string>77777FE4-9C7C-483C-A4E7-7B791660C0F0</string>
 		</dict>
-		<key>91C12670-ED6E-431A-AC0E-511D20B23749</key>
+		<key>AD23E9AE-169E-44AB-85CD-74E21D448A94</key>
 		<dict>
 			<key>className</key>
 			<string>IDECommandLineBuildLog</string>
@@ -49,7 +49,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>91C12670-ED6E-431A-AC0E-511D20B23749.xcactivitylog</string>
+			<string>AD23E9AE-169E-44AB-85CD-74E21D448A94.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -66,13 +66,13 @@
 			<key>signature</key>
 			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
 			<key>timeStartedRecording</key>
-			<real>744470969.72246003</real>
+			<real>744708222.53602898</real>
 			<key>timeStoppedRecording</key>
-			<real>744470969.82465601</real>
+			<real>744708222.66090095</real>
 			<key>title</key>
 			<string>Cleaning project bypassfn with scheme bypassfn and configuration Release</string>
 			<key>uniqueIdentifier</key>
-			<string>91C12670-ED6E-431A-AC0E-511D20B23749</string>
+			<string>AD23E9AE-169E-44AB-85CD-74E21D448A94</string>
 		</dict>
 	</dict>
 </dict>

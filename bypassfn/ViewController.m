@@ -9,26 +9,20 @@
 #include <stdio.h>
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet UIButton *runCommandButton;
+@property (weak, nonatomic) IBOutlet UIButton *runCommandButton; // IBOutlet for UIButton
+@property (weak, nonatomic) IBOutlet UITextView *outputTextView;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    
-    UIButton *runCommandButton = [UIButton buttonWithType:UIButtonTypeSystem];
-    [runCommandButton setTitle:@"Run" forState:UIControlStateNormal];
-    runCommandButton.frame = CGRectMake(100, 100, 200, 50);
-    [runCommandButton addTarget:self action:@selector(runCommandButtonTapped:) forControlEvents:UIControlEventTouchUpInside];
-    
-    [self.view addSubview:runCommandButton];     
-    
+    // Additional setup if needed
 }
 
 - (IBAction)runCommandButtonTapped:(id)sender {
-    [self runCommand:@"cd /; ls -l"];
+    [self runCommand:@"whoiam"];
 }
 
 - (void)runCommand:(NSString *)command {
@@ -36,18 +30,25 @@
     FILE *pipe = popen(cmd, "r");
     if (pipe == NULL) {
         NSLog(@"Error opening pipe");
-        
         return;
     }
-    
+
     char buffer[128];
     NSMutableString *output = [NSMutableString string];
     while (fgets(buffer, sizeof(buffer), pipe) != NULL) {
         [output appendString:[NSString stringWithUTF8String:buffer]];
     }
-    
-    pclose(pipe);
-    NSLog(@"Command output: %@", output);
+
+    int status = pclose(pipe);
+    if (status == -1) {
+        NSLog(@"Error closing pipe");
+    } else {
+        NSLog(@"Command exit status: %d", WEXITSTATUS(status));
+    }
+
+    // Display the output on the UILabel
+    self.outputTextView.text = output;
 }
 
 @end
+
