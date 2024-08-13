@@ -1,5 +1,5 @@
 #import <UIKit/UIKit.h>
 
-@interface FNRootViewController : UITableViewController
-
+@interface FNRootViewController : UIViewController
+@property (nonatomic, strong) UILabel *outputLabel;
 @end
