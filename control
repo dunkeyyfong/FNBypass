@@ -1,0 +1,8 @@
+Package: com.fndev.bypassfn
+Name: bypassfn
+Version: 0.0.2
+Architecture: iphoneos-arm64
+Description: An awesome application!
+Maintainer: dunkeyyfong
+Author: dunkeyyfong
+Section: Utilities
